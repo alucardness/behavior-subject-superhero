@@ -1,4 +1,12 @@
-# Behavior
+# Behavior Subject
+
+<p>Sample with Superheroes</p>
+
+<br>
+
+### In the service, we have defined a behavior subject called \_superheroes that will hold our list of superheroes. We have also defined an observable called superheroes$ that will allow us to subscribe to changes in the superhero list.
+
+<br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
