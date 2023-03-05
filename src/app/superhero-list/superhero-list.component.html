@@ -1,0 +1,12 @@
+<h3>Superheroes List</h3>
+
+<ul>
+  <li *ngFor="let hero of superheroes">
+    <p>ID: {{ hero.id }}</p>
+    <p>Name: {{ hero.name }}</p>
+    <p>Powers: {{ hero.power }}</p>
+    <button (click)="removeHero(hero)">Remove</button>
+  </li>
+</ul>
+
+<button (click)="callSuperman()">Add</button>
